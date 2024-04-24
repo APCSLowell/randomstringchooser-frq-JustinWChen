@@ -13,7 +13,7 @@ public class RandomStringChooser {
         if (availableStrings.size() == 0) {
             return "NONE";
         }
-        int randomIndex = (int)(Math.random() availableStrings.size());
+        int randomIndex = (int)(Math.random()*availableStrings.size());
         return availableStrings.remove(randomIndex);
 }
 }
