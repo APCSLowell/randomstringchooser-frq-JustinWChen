@@ -10,7 +10,7 @@ public class Main
 		{
 			System.out.print(sChooser.getNext() + " ");
 		}
-		
+
 		//Part B
 		System.out.println("\n\nPart B");
 		RandomLetterChooser letterChooser = new RandomLetterChooser("cat");
