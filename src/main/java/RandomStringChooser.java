@@ -15,5 +15,4 @@ public class RandomStringChooser {
         }
         int randomIndex = (int)(Math.random() availableStrings.size());
         return availableStrings.remove(randomIndex);
-    }
 }
